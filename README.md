@@ -16,20 +16,26 @@ Full Stack CRM Project.
 
 <br><br>
 
-## API Kurulumu
+## API Kurulumu ve Calistirilmasi
 ``cd api``
 <br>
 ``npm install``
+<br>
+```npm run dev```
 
 You should see the message **"connected database"**
 
 <br><br>
 
 
-## Client Kurulumu
+## Client Kurulumu ve Calistirilmasi
 ``cd client``
 <br>
 ``npm install``
+<br>
+```npm run dev```
+
+<br><br>
 
 <br><br><br>
 
