@@ -3,6 +3,7 @@ Full Stack CRM Project.
 <br>
  <br>
  ## Gerekli Paket ve Programlar
+ - Git
  - NodeJS
  - MongoDB
 
