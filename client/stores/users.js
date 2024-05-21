@@ -30,6 +30,8 @@ export const useUsersStore = defineStore("usersStore", {
         this.editUserSchema = { ...user };
         this.editPanelModalIsOpen = true;
       } else {
+        this.userSchema = {};
+        this.editUserSchema = {};
         this.editPanelModalIsOpen = false;
       }
     },

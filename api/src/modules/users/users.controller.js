@@ -3,6 +3,7 @@ const usersService = require("./users.service");
 const findAll = async (req, res) => {
   res.send(await usersService.findAll());
 };
+
 const findById = async (req, res) => {
   res.send(await usersService.findById(req.params.userID));
 };
